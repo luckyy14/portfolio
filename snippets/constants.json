@@ -1,0 +1,239 @@
+{
+    "educationList": [
+        {
+            "id": "education-1",
+            "icon": "FaRegImage",
+            "title": "Vellore Institute of Technology",
+            "degree": "Bachelor of Technology - BTech",
+            "duration": "Jun 2018 - Jun 2022",
+            "content1": "",
+            "content2": ""
+        }
+    ],
+    "projects": false,
+    "extraCurricular": false,
+    "achievements": false,
+    "experiences": [
+        {
+            "organisation": "Bajaj Finserv Health",
+            "logo": "placeholder",
+            "link": "",
+            "positions": [
+                {
+                    "title": "Senior Software Developer",
+                    "duration": "Feb 2025 - Present",
+                    "content": [
+                        {
+                            "text": "",
+                            "link": ""
+                        }
+                    ]
+                },
+                {
+                    "title": "Software Developer",
+                    "duration": "Aug 2023 - Jan 2025",
+                    "content": [
+                        {
+                            "text": "",
+                            "link": ""
+                        }
+                    ]
+                },
+                {
+                    "title": "Associate Software Developer",
+                    "duration": "Jul 2022 - Aug 2023",
+                    "content": [
+                        {
+                            "text": "",
+                            "link": ""
+                        }
+                    ]
+                },
+                {
+                    "title": "Software Development Intern",
+                    "duration": "Jan 2022 - Jun 2022",
+                    "content": [
+                        {
+                            "text": "",
+                            "link": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "organisation": "Primera Dental Hub",
+            "logo": "placeholder",
+            "link": "",
+            "positions": [
+                {
+                    "title": "Software Development Intern",
+                    "duration": "Feb 2021 - Apr 2021",
+                    "content": [
+                        {
+                            "text": "https://primeradentalhub.",
+                            "link": ""
+                        },
+                        {
+                            "text": "com/",
+                            "link": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "organisation": "Vellore Institute of Technology",
+            "logo": "placeholder",
+            "link": "",
+            "positions": [
+                {
+                    "title": "Teaching Assistant",
+                    "duration": "Aug 2019 - Aug 2019",
+                    "content": [
+                        {
+                            "text": "Cybersecurity VAP at VIT  Auriseg and Defsec_1 (Chennai based companies) conducted a value added program on Ethical Hacking in which my role as a teaching assistant was to help setup 150 systems using Active Directory and assist the speakers.",
+                            "link": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "aboutMe": {
+        "name": "Lakshay Baheti",
+        "githubUsername": "",
+        "tagLine": "Software Developer II@ Bajaj Finserv Health | React.js | Node | SpringBoot",
+        "intro": "This is a placeholder intro"
+    },
+    "skills": [
+        {
+            "title": "Frameworks/Libraries",
+            "items": [
+                {
+                    "id": "f-1",
+                    "icon": "SiNextjs",
+                    "name": "Nextjs"
+                },
+                {
+                    "id": "f-2",
+                    "icon": "SiReact.js",
+                    "name": "React.js"
+                },
+                {
+                    "id": "f-3",
+                    "icon": "SiReactnative",
+                    "name": "React Native"
+                },
+                {
+                    "id": "f-4",
+                    "icon": "SiSpringboot",
+                    "name": "Spring Boot"
+                }
+            ]
+        },
+        {
+            "title": "Tools",
+            "items": [
+                {
+                    "id": "t-1",
+                    "icon": "FaRegImage",
+                    "name": "nx"
+                },
+                {
+                    "id": "t-2",
+                    "icon": "FaRegImage",
+                    "name": "Continuous Integration and Continuous Delivery (CI/CD)"
+                },
+                {
+                    "id": "t-3",
+                    "icon": "FaRegImage",
+                    "name": "AJAX"
+                },
+                {
+                    "id": "t-4",
+                    "icon": "FaRegImage",
+                    "name": "TypeScript"
+                },
+                {
+                    "id": "t-5",
+                    "icon": "FaRegImage",
+                    "name": "JavaScript"
+                },
+                {
+                    "id": "t-6",
+                    "icon": "FaRegImage",
+                    "name": "Cybersecurity"
+                },
+                {
+                    "id": "t-7",
+                    "icon": "FaRegImage",
+                    "name": "Technical Leadership"
+                },
+                {
+                    "id": "t-8",
+                    "icon": "FaRegImage",
+                    "name": "OWASP"
+                },
+                {
+                    "id": "t-9",
+                    "icon": "FaRegImage",
+                    "name": "Search Engine Optimization (SEO)"
+                },
+                {
+                    "id": "t-10",
+                    "icon": "FaRegImage",
+                    "name": "Java"
+                },
+                {
+                    "id": "t-11",
+                    "icon": "FaRegImage",
+                    "name": "Node.js"
+                },
+                {
+                    "id": "t-12",
+                    "icon": "FaRegImage",
+                    "name": "NestJS"
+                }
+            ]
+        }
+    ],
+    "resumeLink": "",
+    "callToAction": "https://www.linkedin.com/in/<your-linkedin-id>/",
+    "navLinks": [
+        {
+            "id": "skills",
+            "title": "Skills & Experience"
+        },
+        {
+            "id": "education",
+            "title": "Education"
+        },
+        {
+            "id": "achievements",
+            "title": "Achievements"
+        },
+        {
+            "id": "projects",
+            "title": "Projects"
+        },
+        {
+            "id": "openSource",
+            "title": "Open Source"
+        },
+        {
+            "id": "extraCurricular",
+            "title": "Extra Curricular"
+        },
+        {
+            "id": "contactMe",
+            "title": "Contact Me"
+        }
+    ],
+    "itemsToFetch": 20,
+    "includedRepos": [
+        "publiclab/plots2",
+        "zulip/zulip",
+        "paritytech/polkadot-sdk"
+    ]
+}
