@@ -1038,7 +1038,7 @@ def update_json_file(education_entries=None, project_entries=None, volunteering_
     # Ensure essential sections exist with default values
     defaults = {
         'resumeLink': json_data.get('resumeLink', ""),
-        'callToAction': json_data.get('callToAction', "https://www.linkedin.com/in/<your-linkedin-id>/"),
+        'callToAction': json_data.get('callToAction', "https://www.linkedin.com/in/lakshay-baheti/"),
         'navLinks': json_data.get('navLinks', [
             {"id": "skills", "title": "Skills & Experience"},
             {"id": "education", "title": "Education"},

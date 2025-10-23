@@ -49,7 +49,7 @@ const App = () => {
               </div>
             </div>
 
-            <div
+            {/* <div
               className={`bg-primary ${styles.flexCenter} ${styles.paddingX}`}
             >
               <div className={`${styles.boxWidth}`}>
@@ -65,7 +65,7 @@ const App = () => {
                 <Projects />
                 <BlogPosts enabled={false} />
               </div>
-            </div>
+            </div> */}
             <Footer />
           </motion.section>
         )}

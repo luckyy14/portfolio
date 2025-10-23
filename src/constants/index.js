@@ -63,7 +63,7 @@ import { FaGolang } from "react-icons/fa6";
 import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
 export const resumeLink = "";
-export const callToAction = "https://www.linkedin.com/in/<your-linkedin-id>/";
+export const callToAction = "https://www.linkedin.com/in/lakshay-baheti/";
 
 export const navLinks = [
   {
@@ -398,7 +398,7 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: AiFillLinkedin,
-    link: "https://www.linkedin.com/in/<your-linkedin-id>/",
+    link: "https://www.linkedin.com/in/lakshay-baheti/",
   },
   {
     id: "social-media-2",
@@ -408,24 +408,14 @@ export const socialMedia = [
   {
     id: "social-media-3",
     icon: AiFillMail,
-    link: "mailto:<your-email-id>",
-  },
-  {
-    id: "social-media-4",
-    icon: AiOutlineTwitter,
-    link: "https://www.twitter.com/<your-twitter-id>/",
-  },
-  {
-    id: "social-media-5",
-    icon: AiFillInstagram,
-    link: "https://www.instagram.com/<your-instagram-id>/",
-  },
+    link: "mailto:<lakshayb.work@gmail.com>",
+  }
 ];
 
 // Your professional summary
 export const aboutMe = {
     name: "Lakshay Baheti",
-    githubUsername: "",
+    githubUsername: "luckyy14",
     tagLine: "Software Developer II@ Bajaj Finserv Health | React.js | Node | SpringBoot",
     intro: "This is a placeholder intro"
 };
