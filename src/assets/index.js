@@ -35,6 +35,10 @@ import globalAi from "./global-ai.jpeg";
 import khoj from "./khoj.jpg";
 import kosh from "./kosh.png";
 import polkadot_dev_cli from "./polkadot-dev-cli.png";
+import codex from "./codex.svg";
+import VIT from "./VIT.png";
+import BHFL from "./bfhl.svg";
+import lakshaybaheti from "./lakshaybaheti-logo.svg";
 
 export {
   menu,
@@ -72,5 +76,9 @@ export {
   khoj,
   kosh,
   polkadot_dev_cli,
-  placeholder
+  placeholder,
+  codex,
+  VIT,
+  BHFL,
+  lakshaybaheti
 };

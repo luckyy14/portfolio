@@ -1,66 +1,25 @@
+import React from "react";
 import {
-  nitk,
-  cluboard,
-  cash_flow,
-  gdsc,
-  iris,
-  ecell,
-  genesis,
-  portfolio,
-  cdc,
-  chargeswap,
-  placeicon,
-  recruitment,
-  huntly,
-  oracle,
-  comicify_ai,
-  greentrust,
-  averlon,
-  devfolio,
-  pba,
-  ethglobal,
-  polkadot,
-  lightspeed,
-  dennisivy,
-  manipal,
-  icon,
-  ethforall,
-  ethindia,
   placeholder,
+  codex,
+  VIT,
+  BHFL,
 } from "../assets";
 
+import StackIcon from "tech-stack-icons";
 import {
-  AiFillGithub,
-  AiFillInstagram,
-  AiFillLinkedin,
   AiFillMail,
-  AiOutlineTwitter,
-  AiFillHtml5,
-  AiOutlineGitlab,
+  AiFillLinkedin,
 } from "react-icons/ai";
 
 import {
-  SiDjango,
-  SiJavascript,
-  SiBootstrap,
-  SiReact,
-  SiTailwindcss,
-  SiPython,
-  SiRubyonrails,
-  SiGit,
-  SiMysql,
-  SiNetlify,
-  SiFlutter,
-  SiFlask,
+SiJfrogpipelines,
+SiOwasp,
+SiNx
 } from "react-icons/si";
 
-import { FaHardHat, FaRust, FaRegImage } from "react-icons/fa";
+import { FaRegImage, FaRedhat, FaCrown,FaSearchDollar  } from "react-icons/fa";
 
-import { IoIosNotificationsOutline } from "react-icons/io";
-
-import { FaGolang } from "react-icons/fa6";
-
-import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
 export const resumeLink = "";
 export const callToAction = "https://www.linkedin.com/in/lakshay-baheti/";
@@ -74,22 +33,18 @@ export const navLinks = [
     id: "education",
     title: "Education",
   },
-  {
-    id: "achievements",
-    title: "Achievements",
-  },
+  // {
+  //   id: "achievements",
+  //   title: "Achievements",
+  // },
   {
     id: "projects",
     title: "Projects",
   },
-  {
-    id: "openSource",
-    title: "Open Source",
-  },
-  {
-    id: "extraCurricular",
-    title: "Extra Curricular",
-  },
+  // {
+  //   id: "openSource",
+  //   title: "Open Source",
+  // },
   {
     id: "contactMe",
     title: "Contact Me",
@@ -100,7 +55,7 @@ export const navLinks = [
 export const educationList = [
   {
     id: "education-1",
-    icon: FaRegImage,
+    icon: VIT,
     title: "Vellore Institute of Technology",
     degree: "Bachelor of Technology - BTech",
     duration: "Jun 2018 - Jun 2022",
@@ -133,24 +88,24 @@ export const skills = [
     items: [
       {
         id: "f-1",
-        icon: FaRegImage,
-        name: "Nextjs"
-      },
-      {
-        id: "f-2",
-        icon: SiReact,
-        name: "React.js"
-      },
-      {
-        id: "f-3",
-        icon: SiReact,
-        name: "React Native"
-      },
-      {
-        id: "f-4",
-        icon: FaRegImage,
-        name: "Spring Boot"
-      }
+icon: (props) => React.createElement(StackIcon, { name: "nextjs", variant: "dark", style: { width: 32, height: 32 }, ...props }),
+    name: "Nextjs"
+  },
+  {
+    id: "f-2",
+icon: (props) => React.createElement(StackIcon, { name: "react", variant: "dark", style: { width: 32, height: 32 }, ...props }),
+    name: "React.js"
+  },
+  {
+    id: "f-3",
+    icon: (props) => React.createElement(StackIcon, { name: "react", style: { width: 32, height: 32 }, variant: "dark", ...props }),
+    name: "React Native"
+  },
+  {
+    id: "f-4",
+icon: (props) => React.createElement(StackIcon, { name: "spring", variant: "dark", style: { width: 32, height: 32 }, ...props }),
+    name: "Spring Boot"
+  }
     ]
   },
   {
@@ -158,62 +113,57 @@ export const skills = [
     items: [
       {
         id: "t-1",
-        icon: FaRegImage,
+        icon: SiNx ,
         name: "nx"
       },
       {
         id: "t-2",
-        icon: FaRegImage,
+        icon: SiJfrogpipelines,
         name: "Continuous Integration and Continuous Delivery (CI/CD)"
       },
       {
-        id: "t-3",
-        icon: FaRegImage,
-        name: "AJAX"
-      },
-      {
         id: "t-4",
-        icon: FaRegImage,
+icon: (props) => React.createElement(StackIcon, { name: "typescript", variant: "dark", style: { width: 32, height: 32 }, ...props }),
         name: "TypeScript"
       },
       {
         id: "t-5",
-        icon: FaRegImage,
+icon: (props) => React.createElement(StackIcon, { name: "js", variant: "dark", style: { width: 32, height: 32 }, ...props }),
         name: "JavaScript"
       },
       {
         id: "t-6",
-        icon: FaRegImage,
+        icon: FaRedhat,
         name: "Cybersecurity"
       },
       {
         id: "t-7",
-        icon: FaRegImage,
+        icon: FaCrown,
         name: "Technical Leadership"
       },
       {
         id: "t-8",
-        icon: FaRegImage,
+        icon: SiOwasp,
         name: "OWASP"
       },
       {
         id: "t-9",
-        icon: FaRegImage,
+        icon: FaSearchDollar,
         name: "Search Engine Optimization (SEO)"
       },
       {
         id: "t-10",
-        icon: FaRegImage,
+icon: (props) => React.createElement(StackIcon, { name: "java", variant: "dark", style: { width: 32, height: 32 }, ...props }),
         name: "Java"
       },
       {
         id: "t-11",
-        icon: FaRegImage,
+icon: (props) => React.createElement(StackIcon, { name: "nodejs", variant: "dark", style: { width: 32, height: 32 }, ...props }),
         name: "Node.js"
       },
       {
         id: "t-12",
-        icon: FaRegImage,
+icon: (props) => React.createElement(StackIcon, { name: "nestjs", variant: "dark", style: { width: 32, height: 32 }, ...props }),
         name: "NestJS"
       }
     ]
@@ -224,7 +174,7 @@ export const skills = [
 export const experiences = [
   {
     organisation: "Bajaj Finserv Health",
-    logo: placeholder,
+    logo: BHFL,
     link: "",
     positions: [
       {
@@ -312,17 +262,27 @@ export const experiences = [
 // Add information about all the projects to be listed out in your portfolio
 export const projects = [
   {
-    id: "project-1",
-    title: "",
-    github: "",
-    link: "",
-    image: placeholder,
-    content: "",
+    id: "react-design-pattern",
+    title: "React Design Pattern Demo",
+    github: "https://github.com/luckyy14/react-design-pattern",
+    link: "https://codex.lakshaybaheti.com/",
+    image: codex,
+    content: "A showcase of advanced React design patterns, including demos for Compound Components, Renderless Components, Prop Getters, State Initializers, and more. Built with Vite and React.",
     stack: [
       {
-        id: "icon-1",
-        icon: FaRegImage,
-        name: "Placeholder",
+        id: "icon-react",
+        icon: (props) => React.createElement(StackIcon, { name: "react", variant: "dark", style: { width: 24, height: 24 }, ...props }),
+        name: "React"
+      },
+      {
+        id: "icon-vite",
+        icon: (props) => React.createElement(StackIcon, { name: "vite", variant: "dark", style: { width: 24, height: 24 }, ...props }),
+        name: "Vite"
+      },
+      {
+        id: "icon-js",
+        icon: (props) => React.createElement(StackIcon, { name: "js", style: { width: 24, height: 24 }, variant: "dark", ...props }),
+        name: "JavaScript"
       }
     ],
   }
@@ -402,7 +362,7 @@ export const socialMedia = [
   },
   {
     id: "social-media-2",
-    icon: AiFillGithub,
+    icon: (props) => React.createElement(StackIcon, {  name: "github", style: { width: 21, height: 21, display:"block" }, variant: "dark", ...props }),
     link: "https://www.github.com/<your-github-id>/",
   },
   {
@@ -417,7 +377,7 @@ export const aboutMe = {
     name: "Lakshay Baheti",
     githubUsername: "luckyy14",
     tagLine: "Software Developer II@ Bajaj Finserv Health | React.js | Node | SpringBoot",
-    intro: "This is a placeholder intro"
+    intro: "Passionate Frontend Engineer with 3.5+ years of experience building scalable web applications in healthcare SaaS. Proficient in React.js, Next.js, TypeScript, and Nx monorepos, with hands-on experience in Micro Frontend architecture and backend integration using Spring Boot and NestJS."
 };
 
 // The maximum number of PRs to be displayed in the Open Source Contributions section.

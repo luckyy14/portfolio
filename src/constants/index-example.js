@@ -29,15 +29,6 @@ import {
   placeholder,
 } from "../assets";
 
-import {
-  AiFillGithub,
-  AiFillInstagram,
-  AiFillLinkedin,
-  AiFillMail,
-  AiOutlineTwitter,
-  AiFillHtml5,
-  AiOutlineGitlab,
-} from "react-icons/ai";
 
 import {
   SiDjango,
@@ -356,7 +347,7 @@ export const blogPosts = [
     title: "Blog Post 01 - Title",
     link: "#",
     date: new Date().toLocaleDateString(), // Can be edited to any string format
-    image: "https://via.placeholder.com/600/92c952",
+    image: placeholder,
     tags: [
       {
         id: "tag-1",
@@ -418,17 +409,20 @@ export const extraCurricular = [
 export const socialMedia = [
   {
     id: "social-media-1",
-    icon: AiFillLinkedin,
+    icon: "linkedin",
+    variant: "dark",
     link: "https://www.linkedin.com/in/lakshay-baheti/",
   },
   {
     id: "social-media-2",
-    icon: AiFillGithub,
+    icon: "github",
+    variant: "dark",
     link: "https://www.github.com/<your-github-id>/",
   },
   {
     id: "social-media-3",
-    icon: AiFillMail,
+    icon: "mail",
+    variant: "dark",
     link: "mailto:<lakshayb.work@gmail.com>",
   }
 ];
